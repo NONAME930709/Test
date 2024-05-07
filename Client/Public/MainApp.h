@@ -38,6 +38,8 @@ public:
 public:
 	int test;
 	int a;
+	int b = { 3 };
+	int Get();
 };
 
 END
